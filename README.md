@@ -48,10 +48,7 @@ The code will be made public after the paper is published.
 
 
 ## Requirements
-For imagenet
-timm==0.6.12; cupy==11.3.0; torch==1.14.0+cu116; spikingjelly==0.0.0.0.12; pyyaml;
-For others
-timm==0.6.12; cupy==11.3.0; torch==1.14.0+cu116; spikingjelly==0.0.0.0.12; pyyaml;
+timm==0.3.2 for imagenet, timm==0.6.12 for others; cupy==9.6.0; torch==1.10.0; cuda==11.3.1; cudnn==8.2.1; spikingjelly==0.0.0.0.12; pyyaml==5.3.1;
 
 data prepare: ImageNet with the following folder structure, you can extract imagenet by this [script](https://gist.github.com/BIGBALLON/8a71d225eff18d88e469e6ea9b39cef4).
 ```
