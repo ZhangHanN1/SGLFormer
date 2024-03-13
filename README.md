@@ -19,6 +19,7 @@ Our codes are based on ...
 
 The code will be made public after the paper is published. 
 
+
 ## Results on ImageNet-1K
 
 | Model              | Resolution| T     |  Param.     |Top-1 Acc|
@@ -35,6 +36,7 @@ The code will be made public after the paper is published.
 | :---                | :---:  | :---:       |  :---:            |:---:  |
 | SGLFormer-4-384     | 4      |  8.85/8.88M | 96.76             |82.26  |
 
+
 ## Results on CIFAR10-DVS/DVS128
 
 | Model            |  Dataset    | T      |  Param.     |   Top-1 Acc |
@@ -43,6 +45,30 @@ The code will be made public after the paper is published.
 | SGLFormer-3-256  | CIFAR10 DVS | 16     |  2.58M      | 82.6        |
 | SGLFormer-3-256  | DVS 128     | 10     |  2.08M      | 97.2        |
 | SGLFormer-3-256  | DVS 128     | 16     |  2.17M      | 98.6        |
+
+
+## Requirements
+For imagenet
+timm==0.6.12; cupy==11.3.0; torch==1.14.0+cu116; spikingjelly==0.0.0.0.12; pyyaml;
+For others
+timm==0.6.12; cupy==11.3.0; torch==1.14.0+cu116; spikingjelly==0.0.0.0.12; pyyaml;
+
+data prepare: ImageNet with the following folder structure, you can extract imagenet by this [script](https://gist.github.com/BIGBALLON/8a71d225eff18d88e469e6ea9b39cef4).
+```
+│imagenet/
+├──train/
+│  ├── n01440764
+│  │   ├── n01440764_10026.JPEG
+│  │   ├── n01440764_10027.JPEG
+│  │   ├── ......
+│  ├── ......
+├──val/
+│  ├── n01440764
+│  │   ├── ILSVRC2012_val_00000293.JPEG
+│  │   ├── ILSVRC2012_val_00002138.JPEG
+│  │   ├── ......
+│  ├── ......
+```
 
 
 
