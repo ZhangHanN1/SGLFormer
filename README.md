@@ -24,10 +24,10 @@ The code will be made public after the paper is published.
 
 | Model              | Resolution| T     |  Param.     |Top-1 Acc|
 | :---               | :---:     | :---: | :---:       |:---:    |
-| SGLFormer-8-384    | 224x224   | 4     |  16.25M     |72.73    |
-| SGLFormer-8-512    | 224x224   | 4     |  28.67M     |75.61    |
-| SGLFormer-8-512*   | 224x224   | 4     |  28.67M     |77.34    |
-| SGLFormer-8-768*   | 224x224   | 4     |  64.02M     |77.64    |
+| SGLFormer-8-384    | 224x224   | 4     |  16.25M     |79.44    |
+| SGLFormer-8-512    | 224x224   | 4     |  28.67M     |82.28    |
+| SGLFormer-8-512*   | 224x224   | 4     |  28.67M     |81.93    |
+| SGLFormer-8-768*   | 224x224   | 4     |  64.02M     |83.73    |
 
 
 ## Results on CIFAR10/CIFAR100
