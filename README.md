@@ -24,6 +24,7 @@ The code will be made public after the paper is published.
 
 | Model              | Resolution| T     |  Param.     |Top-1 Acc|
 | :---               | :---:     | :---: | :---:       |:---:    |
+| Swin Transformer   | 224x224   | -     |  88M        |83.5     |
 | SGLFormer-8-384    | 224x224   | 4     |  16.25M     |79.44    |
 | SGLFormer-8-512    | 224x224   | 4     |  28.67M     |82.28    |
 | SGLFormer-8-512*   | 224x224   | 4     |  28.67M     |81.93    |
