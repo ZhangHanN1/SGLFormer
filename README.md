@@ -53,6 +53,46 @@ data prepare: ImageNet with the following folder structure, you can extract imag
 │  ├── ......
 ```
 
+## Train & Test
+### Training  on ImageNet
+```
+cd imagenet
+python -m torch.distributed.launch --nproc_per_node=8 train.py
+```
+
+### Testing ImageNet Val data
+Download the trained model first, then:
+```
+cd imagenet
+python test.py
+```
+
+### Training  on CIFAR10
+Setting hyper-parameters in cifar10.yml
+```
+cd cifar10
+python train.py
+```
+
+### Training  on CIFAR100
+Setting hyper-parameters in cifar100.yml
+```
+cd cifar10
+python train.py
+```
+
+### Training  on DVS128 Gesture
+```
+cd dvs128-gesture
+python train.py
+```
+
+### Training  on CIFAR10-DVS
+```
+cd cifar10-dvs
+python train.py
+```
+
 
 ## Reference
 If you find this repo useful, please consider citing:
