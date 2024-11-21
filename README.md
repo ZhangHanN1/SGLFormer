@@ -65,7 +65,9 @@ data prepare: ImageNet with the following folder structure, you can extract imag
 ### Training  on ImageNet
 ```
 cd imagenet
-python -m torch.distributed.launch --nproc_per_node=8 train.py
+OMP_NUM_THREADS=1 python -m torch.distributed.launch --nproc_per_node=8 main.py --accum_iter 2 --batch_size 32 --blr 6e-4 --model sglformer_ima_8_512 --output_dir ./sglformer_ima_8_512
+# sglformer_ima_8_512 is SGLFormer-8-512*
+# sglformer_ima2_8_512 is SGLFormer-8-512
 ```
 
 ### Testing ImageNet Val data
