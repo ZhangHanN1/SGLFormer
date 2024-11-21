@@ -61,20 +61,13 @@ data prepare: ImageNet with the following folder structure, you can extract imag
 │  ├── ......
 ```
 
-## Train & Test
+## Train
 ### Training  on ImageNet
 ```
 cd imagenet
 OMP_NUM_THREADS=1 python -m torch.distributed.launch --nproc_per_node=8 main.py --accum_iter 2 --batch_size 32 --blr 6e-4 --model sglformer_ima_8_512 --output_dir ./sglformer_ima_8_512
 # sglformer_ima_8_512 is SGLFormer-8-512*
 # sglformer_ima2_8_512 is SGLFormer-8-512
-```
-
-### Testing ImageNet Val data
-Download the trained model first, then:
-```
-cd imagenet
-python test.py
 ```
 
 ### Training  on CIFAR10
@@ -87,20 +80,20 @@ python train.py
 ### Training  on CIFAR100
 Setting hyper-parameters in cifar100.yml
 ```
-cd cifar10
+cd cifar100
 python train.py
 ```
 
 ### Training  on DVS128 Gesture
 ```
 cd dvs128-gesture
-python train.py
+python train.py --T=10 --lr=5e-3
 ```
 
 ### Training  on CIFAR10-DVS
 ```
 cd cifar10-dvs
-python train.py
+python train.py --T=10 --lr=5e-3
 ```
 
 
