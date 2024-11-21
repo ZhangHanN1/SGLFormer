@@ -5,6 +5,13 @@ Our models achieve SOTA performance on several datasets (eg. 83.73 % on ImageNet
 ## 
 Our codes are based on [QKFormer](https://github.com/zhouchenlin2096/QKFormer) and [Spikformer](https://github.com/ZK-Zhou/spikformer).
 
+<p align="center">
+<img src="https://github.com/ZhangHanN1/SGLFormer/tree/main/img/performance-energy-SGLFormer-QKFormer.jpg">
+</p>
+
+<p align="center">
+<img src="https://github.com/ZhangHanN1/SGLFormer/tree/main/img/SGLFormer.jpg">
+</p>
 
 ## Results on ImageNet-1K
 
