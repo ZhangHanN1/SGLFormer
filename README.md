@@ -15,9 +15,7 @@ If you find this repo useful, please consider citing:
   ISSN={1662-453X}
 }
 ```
-Our codes are based on ...
-
-The code will be made public after the paper is published. 
+Our codes are based on [QKFormer](https://github.com/zhouchenlin2096/QKFormer) and [Spikformer](https://github.com/ZK-Zhou/spikformer).
 
 
 ## Results on ImageNet-1K
