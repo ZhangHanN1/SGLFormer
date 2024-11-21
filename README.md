@@ -1,7 +1,8 @@
 # SGLFormer: Spiking Global-Local-Fusion Transformer with high performance, [this is link]( https://doi.org/10.3389/fnins.2024.1371290)
 Our models achieve SOTA performance on several datasets (eg. 83.73 % on ImageNet, 96.76 % on CIFAR10, 82.26 % on CIFAR100, 82.9% on CIFAR10-DVS) in directly trained SNNs in 2024/03.
 
-```
+
+## 
 Our codes are based on [QKFormer](https://github.com/zhouchenlin2096/QKFormer) and [Spikformer](https://github.com/ZK-Zhou/spikformer).
 
 
@@ -107,6 +108,7 @@ If you find this repo useful, please consider citing:
   DOI={10.3389/fnins.2024.1371290},
   ISSN={1662-453X}
 }
+```
 
 
 
