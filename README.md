@@ -6,7 +6,7 @@ Our models achieve SOTA performance on several datasets (eg. 83.73 % on ImageNet
 Our codes are based on [QKFormer](https://github.com/zhouchenlin2096/QKFormer) and [Spikformer](https://github.com/ZK-Zhou/spikformer).
 
 ##
-The trained model for CIFAR100 and ImageNet is provided at [BauduYun](https://pan.baidu.com/s/11aqN_m2BnOkvlt96JmYZRw?pwd=x9m6).
+The trained model for CIFAR100 and ImageNet is provided at [BauduYun](https://pan.baidu.com/s/1F5vsg9V4Vaj4jbTC103m3A?pwd=thd3).
 
 ## 
 <p align="center">
